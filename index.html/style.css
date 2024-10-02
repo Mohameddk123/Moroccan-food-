@@ -1,0 +1,367 @@
+body {
+    background-image: url(https://www.citylifemadrid.com/wp-content/uploads/Madrid-City-at-Night.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+}  
+html {
+    scroll-behavior: smooth;
+}
+
+.countain {
+    width: 1250px;
+    height: 10330px;
+    margin-top: 35px;
+    background: white;
+    margin-top: 10px;
+    color: #3c3c3c;
+   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: 100px;
+    padding: 20px 0;
+   
+   
+}
+nav .logo  {
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 1000;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-family: "Roboto", sans-serif;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+}
+nav ul li a:hover {
+    color: red;
+    
+}
+.life {
+    color: red;
+    font-size: 40px;
+}
+.line {
+    background: #3c3c3c;
+    height: 1px;
+    margin-top: 0px;
+    
+}
+
+h1 {
+    font-size: 45px;
+    width: 800px;
+    margin: 40px 0px 0px 35px;
+    font-weight: 900;
+    color: #3c3c3c;
+}
+.exp ul li {
+
+    display: inline-block;
+    margin: 15px 0px 0px 20px;
+    color: rgb(130, 127, 127);
+    
+    
+}
+.exp2 {
+    color: rgb(130, 127, 127);
+    text-decoration: none;
+}
+.exp2:hover{
+    color: orange;
+}
+.edit2 {
+    margin: 15px 0px 0px 37px;
+}
+span {
+    color: red;
+}
+span:hover {
+    color: orange;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: orange;
+
+}
+.img1 {
+    width: 900px;
+    margin: 30px 0px 0px 37px;
+
+}
+.center {
+    width: 700px;
+    text-align: center;
+    margin: 20px 0px 0px 120px;
+    font-weight: 400;
+}
+.Tagine {
+    font-size: 35px;
+    width: 500px;
+    margin: 50px 0px 0px 380px;
+    font-weight: 800;
+    color: #3c3c3c
+}
+.img2 {
+    width: 500px;
+    margin-left: 210px;
+    margin-top: 40px;
+    
+}
+
+.img3 {
+    width: 800px;
+    border-radius: 60px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.img11 {
+    width: 900px;
+    margin: 60px 0px 0px 37px; 
+}
+.kefta {
+    font-size: 35px;
+    width: 500px;
+    margin: 50px 0px 0px 270px;
+    font-weight: 800;
+    color: #3c3c3c
+}
+.ccc {
+    margin: 40px 0px 0px 35px;
+    font-size: 20px;
+    color: #3c3c3c;
+    
+}
+.img5 {
+    width: 200px;
+    margin: 40px 0px 0px 70px;
+}
+
+
+.photo {
+    display: flex;
+    
+
+}
+.bbb {
+    display: block;
+    justify-content: space-around;
+    color: #3c3c3c;
+    width: 200px;
+    margin-left: 70px;
+    
+}
+.btn {
+    padding: 7px 24px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 25px 0px 0px 100px;
+    color: white;
+    background: #dd0031;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+.Reply {
+    color: #3c3c3c;
+    margin: 40px 0px 0px 35px;
+    font-weight: 600;
+
+}
+.linne {
+    color: #e8e8e8;
+    width: 780px;
+    margin: 40px 0px 0px 35px;
+}
+.email {
+    margin: 30px 0px 0px 35px;
+}
+.input1, .input2, .input3 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 15px 0px 0px 18px;
+}
+.input2 {
+    padding: 45px 0px ;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    background: #e8e8e8;
+}
+.input3 {
+    padding: 12px 0px;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    background: #e8e8e8;
+}
+.input2:hover {
+    border: 2px solid red;
+}
+.input3:hover {
+    border: 2px solid red;
+}
+.html {
+     position: relative;
+     right: 400px;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+    background: #e8e8e8;
+    
+}   
+input[type="checkbox"]:checked {
+    background: green;
+}
+button {
+    padding: 7px 24px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 25px 0px 0px 35px;
+    color: white;
+    background: #dd0031;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+button:hover {
+    background: #ffc152;
+}
+.black {
+    display: flex;
+    justify-content: space-around;
+    background: #1b1b1b;
+    width: 1250px;
+    height: 600px;
+    margin-top: 0px;
+    border-radius: 0px;
+    color: white;
+}
+.word {
+    color: white;
+    font-size: 25px;
+    font-size: 700;
+    margin: 50px 0px 0px 35px;
+}
+.word2 {
+    margin: 30px 0px 0px 35px;
+    width: 350px;
+}
+.input-black {
+    padding: 13px 180px 13px 0px ;
+    margin: 10px 0px 0px 35px;
+    text-align: start;
+    background: #222222;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: "Reddit Sans", sans-serif;
+}
+.input-black:hover {
+    border: 2px solid red;
+}
+.word22 {
+    margin: 30px 0px 0px 35px;
+    width: 350px;
+    font-size: small;
+    margin-top: 20px;
+}
+.span111 {
+    color: red;
+}
+.first p {
+    color: white;
+    margin: 0px;
+    font-family: var(--font-body) !important;
+    font-size: 17px;
+    position: relative;
+    right: 495px;
+    top: 0px;  
+   
+}
+.first p:hover {
+    color: red;
+    letter-spacing: 1px;
+}
+nav .logo:hover{
+    letter-spacing: 4px;
+}
+.last-image {
+    width: 100px;
+    margin-left: 38px;
+    margin-top: 25px;
+    height: 100px;
+}
+.last-image:hover {
+    opacity: 0.5;
+}
+/*li katklik tle3 lfo9*/
+.box  {
+    background-color: #dd0031;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    bottom: 15px;
+    height: 30px;
+    position: fixed;
+    right: 15px;
+    width: 34px;
+    
+}
+.box:hover {
+    
+    opacity: 0.5;
+}
+i {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.reload {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 4px solid red;
+    margin-left: 65px;
+    margin-top: 20px;
+    border-left-color: transparent;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+

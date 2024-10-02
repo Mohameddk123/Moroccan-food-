@@ -1,0 +1,448 @@
+body {
+    background-image: url(https://www.citylifemadrid.com/wp-content/uploads/Madrid-City-at-Night.jpg); 
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+      
+}
+/* hado dial dik lktaba lfo9 lowla*/
+.up{
+    
+    color: white;
+    margin: 0px;
+    font-family: var(--font-body) !important;
+    font-size: 17px;
+    position: relative;
+    right: 495px;
+    top: 0px;  
+}
+.up:hover {
+    color: red;
+    letter-spacing: 1px;
+}
+.countain {
+    width: 1250px;
+    height: 10330px;
+    background-color: white;
+    margin-top: 10px;
+    color: #3c3c3c;
+}
+/* hado elements dial nav*/
+nav {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: 100px;
+    padding: 20px 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-family: "Roboto", sans-serif;
+}
+nav .logo {
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 1000;
+    letter-spacing: 3px;
+}
+nav .logo:hover {
+    color: orange;
+    letter-spacing: 4px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0;
+   
+}
+nav ul li a:hover {
+    color: red;
+}
+nav ul li .nav-red {
+    color: #dd0031;
+}
+.life {
+    color: red;
+    font-size: 40px;
+}
+.life:hover {
+    color: orange;
+}
+
+article img {
+    width: 100%;
+}
+article p {
+    margin: 20px 40px;
+}
+.the-red-span {
+    color: #dd0031;
+}
+.the-red-span-big {
+    color: #dd0031;
+    font-weight: 750;
+}
+.the-black-span {
+    color: black;
+    font-weight: 720;
+}
+
+section div {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+section ul li {
+    width: 480px;
+    margin: 10px 0px 0px 30px;
+    font-size: 16px;
+}
+.the-point {
+    display: flex;
+    flex-direction: row;
+}
+div h2 {
+    font-weight: 400;
+}
+.the-second-ul li {
+    font-size: 16px;
+}
+.paragh {
+    position: relative;
+    bottom: 8px;
+}
+.paragh .the-second-ul li  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    color: #dd0031;
+}
+.paragh .the-second-ul .different-li {
+    position: relative;
+    left: 40px;
+}
+.your-list {
+    margin: 60px 20px 0px 40px; 
+}
+.the-h2 {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: 800;
+    color: #3c3c3c;
+    margin-bottom: 0;
+}
+.sec div p {
+    margin: 30px 0 0 20px;
+    
+}
+/* hado dial dik lktaba li wast lmostatil*/
+.sec .different {
+    width: 700px;
+    border: 1px solid #dd0031;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.photo-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.image-next-phone {
+    width: 380px;
+    margin: 30px 0 0 40px
+}
+.photo-text p {
+    width: 760px;
+    
+}
+article div {
+    margin-top: 25px;
+}
+/*1.1 MAdrid most popular*/
+.the-h3 {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #3c3c3c;
+    margin-bottom: 0;
+}
+.p {
+    margin: 20px  40px;
+}
+.img {
+    width: 850px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    
+}
+/*hadchi dial deatils summary*/
+details {
+    margin: 20px 0 0 40px;
+}
+details summary {
+    width: 95%;
+    border: 1px solid transparent;
+    padding: 10px 10px 10px 10px;
+    color: #3c3c3c;
+    background-color:#ededed;
+}
+.img-summary {
+    width: 380px;
+    height: 250px;
+    margin-left: 6px;
+    margin-top: 10px;
+    
+}
+.p-summary {
+    margin-right: 50px;
+    margin-left: 7px;
+}
+details {
+    margin-top: 10px;
+}
+/*The paragraphe after details summary*/
+.the-h4 {
+    font-size: 19px;
+    font-weight: 900;
+    width: 360px;
+    text-align: center;
+    margin: 20px 0px 20px 30px;
+}
+
+.img-Someone-writes-in-a-paper {
+    width: 140px;
+    margin-left: 150px;
+}
+.p-after-small-paper {
+    width: 360px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 50px;
+    
+}
+.p-after-small-paper-2 {
+    width: 360px;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 50px;
+}
+.p-after-small-paper-3 {
+    width: 360px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.button-after-small-paper {
+    padding: 8px 17px 10px 17px;
+    background-color: #dd0031;
+    color: white;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+}
+.phar-1 {
+    position: relative;
+    top: 0px;
+   
+   
+}
+.phar2 {
+   position: relative;
+   left: -35px;
+   bottom: 5px;
+}
+.phar3 {
+    position: relative;
+    left: -75px;
+    top: -5px;
+}
+/*lfe9ra li wst mostatil + photo two person taking a phone*/
+.two-person-taking-a-phone {
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 250px
+}
+/*the four pharagraphe - display-flex*/
+div .the-h4-four-pharagraphe {
+    font-size: 19px;
+    font-weight: 900;
+    margin: 26px 0px 26px 40px;
+}
+.p-four-pharagraphe {
+    width: 560px;
+    margin: 27px 0px 20px 40px;
+}
+div .four-pharagraphe {
+    display: flex;
+}
+div .the-pharagraphe-wich-coming-down {
+    margin-top: 90px;
+}
+/*li katkhlik tle3 lfo9*/
+.box  {
+    width: 34px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #dd0031;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    
+}
+.box:hover {
+    
+    opacity: 0.5;
+}
+i {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+
+/*2. type of student*/
+.the-h4-2-type {
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.p-2-type {
+    width: 650px;
+    margin-top: 0;
+    
+}
+.pp-2-type {
+    width: 680px;
+}
+.img-2-type {
+    width: 320px;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+}
+.p-2-type-and-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+/*2B type of student*/
+.p-2B-type {
+    margin-top: 30px;
+}
+.the-h4-2B-type {
+    margin-top: 35px;
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 40px;
+}
+/*2C type of student*/
+.the-h4-2C-type {
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 40px;
+}
+/*2D type of student*/
+.the-h4-2d-type {
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 40px;
+}
+.img-2D-type {
+    width: 450px;
+    margin-left: 40px;
+    
+
+}
+.p-2D-type {
+    width: 650px;
+    
+}
+.the-p-2D-type {
+    position: relative;
+    bottom: 10px;
+}
+.img-2D-type-and-the-p-2D-type {
+    display: flex;
+    
+}
+/*2.2 type of student*/
+.room-img {
+    width: 185px;
+    height: 270px;
+    object-fit: cover;
+    margin-right: -41px;
+    
+}
+.the-rooms-img {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 32px;
+    top: 15px;
+}
+.room-img-2 {
+    width: 185px;
+    object-fit: cover;
+    margin-right: -41px;
+}
+.the-rooms-img-2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 32px;
+    top: 17px;
+} 
+/*2.2 A*/
+.the-h4-2-2A-type {
+    margin-top: 70px;
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 40px;
+}
+/*video*/
+.video-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+figcaption {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.video-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 7px;
+} 
